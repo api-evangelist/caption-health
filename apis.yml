@@ -1,7 +1,29 @@
 aid: caption-health
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/caption-health.png
 name: Caption Health
-description: Caption Health is a company surfaced as a portfolio company of dcvc and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Caption Health was an artificial-intelligence medical-imaging company founded in 2013 and
+  headquartered in San Mateo, California, that built FDA-cleared AI software to guide clinicians
+  through cardiac ultrasound scans in real time. Its flagship products, Caption Guidance and
+  Caption AI, provided real-time image-acquisition guidance, automated image-quality assessment,
+  and automatic ejection-fraction calculation, enabling non-specialist healthcare professionals to
+  capture diagnostic-quality echocardiograms. Backed by DCVC and others (it raised a $53M Series B
+  in 2020), Caption Health was acquired by GE HealthCare in February 2023 for roughly $150M and its
+  technology was absorbed into GE HealthCare's ultrasound portfolio, shipping as Caption AI on the
+  Vscan Air handheld system and within the Verisound AI digital-solutions line. The company no
+  longer operates as an independent entity and publishes no public developer API; this profile is
+  retained as a network record of an acquired provider.
 url: https://raw.githubusercontent.com/api-evangelist/caption-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,35 @@ x-backed-by:
 - dcvc
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: GE HealthCare
+x-acquired-date: '2023-02-17'
+x-successor-product: GE HealthCare Caption AI / Verisound AI
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Artificial Intelligence
+- Machine Learning
+- Healthcare
+- Medical Imaging
+- Ultrasound
+- Cardiology
+- Medical Devices
+- Acquired
 apis: []
+common:
+- type: Website
+  url: https://www.gehealthcare.com/products/ultrasound/ultrasound-digital-solutions/verisound-ai
+  name: Successor product at GE HealthCare (Verisound AI / Caption AI)
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
