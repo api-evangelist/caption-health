@@ -35,7 +35,7 @@ x-status: acquired
 x-acquired-by: GE HealthCare
 x-acquired-date: '2023-02-17'
 x-successor-product: GE HealthCare Caption AI / Verisound AI
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
